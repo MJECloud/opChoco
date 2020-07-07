@@ -1,12 +1,12 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = '1password-cli'
-$version     = 'v1.1.1'
+$version     = 'v1.2.0'
 $toolsDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url         = "https://cache.agilebits.com/dist/1P/op/pkg/$version/op_windows_386_$version.zip"
-$checksum    = 'E0F8C5A74526DDFF58FC828305878303B277271DFF303F383E339D359AFFD008'
+$checksum    = 'BB548B52A14184B7E11257775958F1D8DCC53DC5C81D93B13A9552326BEA8CE3'
 $url64       = "https://cache.agilebits.com/dist/1P/op/pkg/$version/op_windows_amd64_$version.zip"
-$checksum64  = "CB8F8A3EF7DAC895998D34E2341149B431F1F18AC3E2F9A8B5ECCDD4E7CA428F"
+$checksum64  = "1157AEADB8132E548EECBC56C7033868F03903423CAE2FF763DF011E85B1390C"
 
 $packageArgs = @{
   packageName    = $packageName
